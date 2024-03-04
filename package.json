@@ -1,0 +1,21 @@
+{
+  "name": "lets-react",
+  "version": "1.0.0",
+  "description": "This repository is a collection of code snippets and projects for mastering key concepts of the React JavaScript library.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeteJames21/Lets-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeteJames21/Lets-React/issues"
+  },
+  "homepage": "https://github.com/PeteJames21/Lets-React#readme"
+}
