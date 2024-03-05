@@ -9,7 +9,9 @@
  *
  * Not all iterators are iterable and there is no standard way of knowing if an iterator
  * is iterable. It is up to the programmer to inspect the value of 'done' on the object
- * returned by 'next'. Generators are a suitable alternative for making iterable types.
+ * returned by 'next'. Custom iterators can be made iterable by including a 'Symbol.iterator'
+ * property (see online sources for more details).Generators are a more suitable alternative
+ * for making iterable types.
  */
 
 /**
