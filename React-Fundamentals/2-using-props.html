@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Babel Script. Do not use in production!-->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<html>
+  <body>
+    <div id="app"></div>
+
+    <script type="text/jsx">
+      const app = document.getElementById('app');
+      const root = ReactDOM.createRoot(app);
+      function Header({ headerTitle }) {
+        return <h1>{headerTitle}</h1>;
+      }
+
+      function Article({title, content}) {
+        return (
+          <article>
+            <h2>{title}</h2>
+            <p>{content}</p>
+          </article>
+        );
+      }
+
+      function Footer(props) {
+        const name = props.name? props.name : "John Doe";
+        return (
+          <footer>
+            <hr />
+            <p> Made with ❤️ by {name} </p>
+          </footer>
+        );
+      }
+
+      function App() {
+        const content = "React adds modularity to your code and so much more...";
+        return (
+          <>
+          <Header headerTitle="Hello React" />
+          <Article
+            title="Why React is Awesome"
+            content={content}
+          />
+          <Footer name="Pete" />
+          </>
+        );
+      }
+      root.render(<App />);
+    </script>
+  </body>
+</html>

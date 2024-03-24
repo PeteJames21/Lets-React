@@ -62,3 +62,8 @@ Demonstates how to create React components.
 
 In React, a component is simply a JS function that returns some JSX code. The function
 names must be capitalized to distinguish them from plain HTML and JS.
+
+### 2-using-props.html
+
+Demonstrates how to pass properties (aka 'props') to react components. This includes using
+object destructuring or consuming the entire props object.
