@@ -67,3 +67,5 @@ names must be capitalized to distinguish them from plain HTML and JS.
 
 Demonstrates how to pass properties (aka 'props') to react components. This includes using
 object destructuring or consuming the entire props object.
+
+Read more: https://react.dev/learn/passing-props-to-a-component
